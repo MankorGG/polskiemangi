@@ -1,6 +1,5 @@
 html {
 	display: block;
-	#font-size: 1.1vw;
 	font-size: 20px;
 	font-family: Trebuchet MS;
 	background-color: rgba(53,53,53,1);
@@ -13,8 +12,8 @@ body {
 	padding-right: 1%;
 }
 .container {
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 .txt {
 	text-align: center;
@@ -27,8 +26,6 @@ body {
 }
 .navbar {
 		margin: 10px 0% 10px 0%;
-		justify-content: center;
-		text-align: center;
 		text-decoration: none;
 		background-color: rgba(35,35,35,1);
 		border-radius: 20px;
@@ -37,12 +34,13 @@ body {
 li {
 		display: inline-block;
 		margin: 15px 20px;
-		#font-size: 125%;
 }
 ul {
 		-webkit-padding-start: 0px;
+		justify-content: center;
+		text-align: center;
 }
-a:link, a:visited {
+a:link, a:visited, h4 {
 	color: white;
 	text-decoration: none;
 }
@@ -65,10 +63,70 @@ a:link, a:visited {
 	border: 0px;
 	padding: 0px;
 }
+.nopadding {
+	padding: 0px;
+	margin: 0px;
+}
 
-
-
-
+.recommended {
+	background-color: rgba(35,35,35,1);
+	border: 1px solid;
+	border-bottom-color: black;
+	width: calc(100%-20px);
+	padding: 10px;
+	max-height: 310px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.recommended::-webkit-scrollbar{
+	display: none;
+}
+.mimg{
+	max-width: 125px;
+}
+.pmangi {
+	vertical-align: top;
+	text-align: center;
+}
+.title {
+	display: block;
+	margin: 0px;
+	width: 125px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	text-align: center;
+}
+.new {
+	background-color: rgba(35,35,35,1);
+	border: 1px solid;
+	border-bottom-color: black;
+	width: calc(100%-20px);
+	padding: 10px;
+	margin-top: 15px;;
+	max-height: 310px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.new::-webkit-scrollbar{
+	display: none;
+}
+.entry-a {
+	padding: 1px;
+	background-color: black;
+	color: white;
+}
+h5, .text {
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+}
+.entry-b {
+	padding: 1px;
+	background-color: white;
+	color: black;
+}
 
 .modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;display:none;overflow:hidden;-webkit-overflow-scrolling:touch;outline:0}
 .modal.fade .modal-dialog{-webkit-transform:translate(0,-25%);-ms-transform:translate(0,-25%);-o-transform:translate(0,-25%);transform:translate(0,-25%);-webkit-transition:-webkit-transform .3s ease-out;-o-transition:-o-transform .3s ease-out;transition:-webkit-transform .3s ease-out;transition:transform .3s ease-out;transition:transform .3s ease-out,-webkit-transform .3s ease-out,-o-transform .3s ease-out}
